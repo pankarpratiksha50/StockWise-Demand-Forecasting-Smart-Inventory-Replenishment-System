@@ -1,0 +1,6 @@
+issue_id,issue_type,entity_id,ground_truth_label,description
+ISSUE-0001,NEGATIVE_LEAD_TIME,LTO-INVALID-0001,INVALID_EXCLUDE_FROM_ESTIMATION,Negative lead time must be rejected.
+ISSUE-0002,STOCKOUT_AS_ZERO_DEMAND,SALE-STOCKOUT-CASE,CENSORED_DEMAND_NOT_ZERO,Stockout-censored sales must not be interpreted as zero demand.
+ISSUE-0003,PACK_SIZE_VIOLATION,PO-PACK-CASE,ROUND_UP_TO_PACK_MULTIPLE,Order quantity must respect supplier pack size and MOQ.
+ISSUE-0004,DISCONTINUED_SKU,SKU-000024,BLOCK_RECOMMENDATION,Discontinued items cannot be recommended for replenishment.
+ISSUE-0005,FUTURE_DATA_LEAKAGE,FORECAST-HOLDOUT,TRAIN_ONLY_ON_PAST,Future holdout observations are evaluation labels only.

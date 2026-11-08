@@ -1,0 +1,7 @@
+store_id,store_name,region,daily_storage_capacity_units
+STORE-000001,Store 001,East,1811
+STORE-000002,Store 002,South,1839
+STORE-000003,Store 003,North,1969
+STORE-000004,Store 004,East,1446
+STORE-000005,Store 005,South,893
+STORE-000006,Store 006,South,1523

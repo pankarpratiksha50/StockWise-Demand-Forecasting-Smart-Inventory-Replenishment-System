@@ -1,0 +1,19 @@
+entity,field,type,required,description,validation
+SKU,sku_id,string,yes,Immutable SKU identifier,Unique primary key
+SKU,category,string,yes,Product category,Non-empty
+SKU,is_discontinued,boolean,yes,Lifecycle flag,True blocks replenishment
+Store,store_id,string,yes,Immutable store identifier,Unique primary key
+Store,daily_storage_capacity_units,integer,yes,Store capacity in units,Non-negative
+Supplier,supplier_id,string,yes,Vendor identifier,Unique primary key
+SupplierSKU,pack_size,integer,yes,Units per supplier pack,Greater than zero
+SupplierSKU,moq_units,integer,yes,Minimum order quantity in units,Greater than zero
+SupplierSKU,supplier_capacity_units,integer,yes,Maximum supplier quantity,Non-negative
+SalesHistory,units_sold,integer,yes,Observed units sold,Non-negative; may be censored by stockout
+SalesHistory,stockout_flag,boolean,yes,Whether stock constrained sales,Must not be treated as zero demand
+InventorySnapshot,on_hand_units,integer,yes,Physical on-hand stock,Non-negative
+InventorySnapshot,on_order_units,integer,yes,Open purchase order units,Non-negative
+InventorySnapshot,reserved_units,integer,yes,Allocated stock,Non-negative
+LeadTimeObservation,observed_days,integer,yes,Observed supplier lead time,Positive for valid observations
+Forecast,forecast_daily_units,float,yes,Estimated daily demand,Non-negative; train on past only
+ReorderPolicy,safety_stock_units,integer,yes,Buffer stock,Derived from demand variability and lead time
+PurchaseRecommendation,recommended_order_units,integer,yes,Recommended quantity,MOQ and pack multiple; capacity capped

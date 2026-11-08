@@ -1,0 +1,8 @@
+{
+  "evaluated_pairs": 144,
+  "MAE": 1.5428176965230531,
+  "RMSE": 2.078332930770393,
+  "WAPE_percent": 15.853209695407505,
+  "holdout_days": 28,
+  "cutoff_date": "2025-06-01"
+}

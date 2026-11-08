@@ -1,0 +1,10 @@
+{
+  "seed": 20261022,
+  "n_skus": 24,
+  "n_stores": 6,
+  "days": 180,
+  "start_date": "2025-01-01",
+  "sales_rows_expected": 24840,
+  "generator_version": "1.0.0",
+  "notes": "Ground truth is isolated from model input. Sales with stockout_flag=true are censored."
+}

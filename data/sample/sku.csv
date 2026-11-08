@@ -1,0 +1,25 @@
+sku_id,sku_name,category,unit_cost,unit_price,is_discontinued,launch_date,lifecycle_status
+SKU-000001,Grocery Item 0001,Personal Care,26.74,76.12,False,2025-01-01,ACTIVE
+SKU-000002,Grocery Item 0002,Personal Care,55.39,53.93,False,2025-01-01,ACTIVE
+SKU-000003,Home Item 0003,Apparel,18.5,16.21,False,2025-01-01,ACTIVE
+SKU-000004,Grocery Item 0004,Electronics,37.01,72.13,False,2025-01-01,ACTIVE
+SKU-000005,Electronics Item 0005,Electronics,57.51,100.16,False,2025-01-01,ACTIVE
+SKU-000006,Grocery Item 0006,Apparel,54.71,27.29,False,2025-01-01,ACTIVE
+SKU-000007,Apparel Item 0007,Electronics,4.94,94.32,False,2025-01-01,ACTIVE
+SKU-000008,Personal Care Item 0008,Electronics,9.51,111.9,False,2025-01-01,ACTIVE
+SKU-000009,Apparel Item 0009,Apparel,31.18,31.49,False,2025-01-01,ACTIVE
+SKU-000010,Grocery Item 0010,Personal Care,8.42,145.44,False,2025-01-01,ACTIVE
+SKU-000011,Personal Care Item 0011,Personal Care,59.6,39.47,False,2025-01-01,ACTIVE
+SKU-000012,Personal Care Item 0012,Apparel,32.83,147.93,False,2025-01-01,ACTIVE
+SKU-000013,Grocery Item 0013,Grocery,4.83,39.6,False,2025-01-01,ACTIVE
+SKU-000014,Electronics Item 0014,Grocery,7.46,94.66,False,2025-01-01,ACTIVE
+SKU-000015,Electronics Item 0015,Electronics,19.55,139.04,False,2025-01-01,ACTIVE
+SKU-000016,Home Item 0016,Grocery,52.62,10.2,False,2025-01-01,ACTIVE
+SKU-000017,Grocery Item 0017,Apparel,40.03,146.29,False,2025-01-01,ACTIVE
+SKU-000018,Grocery Item 0018,Grocery,74.76,92.45,False,2025-01-01,ACTIVE
+SKU-000019,Home Item 0019,Home,12.95,86.33,False,2025-01-01,ACTIVE
+SKU-000020,Personal Care Item 0020,Apparel,69.69,92.22,False,2025-01-01,ACTIVE
+SKU-000021,Electronics Item 0021,Grocery,45.81,104.34,False,2025-01-01,ACTIVE
+SKU-000022,Electronics Item 0022,Electronics,41.15,57.63,False,2025-01-01,ACTIVE
+SKU-000023,Electronics Item 0023,Electronics,5.98,34.26,False,2025-01-01,ACTIVE
+SKU-000024,Grocery Item 0024,Electronics,10.81,98.62,True,2025-01-01,DISCONTINUED
